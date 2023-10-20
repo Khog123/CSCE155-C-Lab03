@@ -1,6 +1,6 @@
 /**
- * Author:
- * Date:
+ * Author: ASIF NAWAZ KHAN
+ * Date: 2023/10/20
  *
  * This programs provides basic calculator functionality
  * allowing a user to enter two operands and to compute
@@ -13,6 +13,7 @@
 
 int main(int argc, char **argv) {
 
+  while(1){ 
   double a, b, result;
   int choice;
 
@@ -37,13 +38,14 @@ int main(int argc, char **argv) {
     result = a - b;
     printf("%f", result);
   } else if(choice == 3) {
-    //TODO: handle this case (multiplication)
+    printf("%f",a*b);
   } else if(choice == 4) {
-    //TODO: handle this case (division)
+    printf("%f",a*b);
   } else if(choice == 5) {
-    //TODO: handle this case (minimum)
+    result(a<b)? a:b;
   } else if(choice == 6) {
-    //TODO: handle this case (log_a(b))
+    result = lob(b)/log(a)
+    printf("loga(b)= %f \n",result);
   } else {
     printf("Please input a valid operator next time");
   }
