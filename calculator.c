@@ -40,15 +40,21 @@ int main(int argc, char **argv) {
   } else if(choice == 3) {
     printf("%f",a*b);
   } else if(choice == 4) {
-    printf("%f",a*b);
+    printf("%f",a/b);
   } else if(choice == 5) {
     result(a<b)? a:b;
+    printf("min=%f\n",result);
   } else if(choice == 6) {
-    result = lob(b)/log(a)
+    result = log(b)/log(a);
     printf("loga(b)= %f \n",result);
   } else {
     printf("Please input a valid operator next time");
   }
-
+  char Chooice;
+  printf("You want to quite programe......\n");
+  if(Choice=='y' || Choice=='Y'){
+    break;
+  }
+printf("____________________________\n")
   return 0;
 }
