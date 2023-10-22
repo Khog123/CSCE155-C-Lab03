@@ -1,6 +1,6 @@
 /**
  * Author: ASIF NAWAZ KHAN
- * Date: 2023/10/20
+ * Date: 2023/10/22
  *
  * This programs provides basic calculator functionality
  * allowing a user to enter two operands and to compute
@@ -55,6 +55,7 @@ int main(int argc, char **argv) {
   if(Choice=='y' || Choice=='Y'){
     break;
   }
-printf("____________________________\n")
+printf("___________________________________\n");
+____
   return 0;
 }
