@@ -91,7 +91,7 @@ if(isLeapYear(year)) {
 } else {
   printf("PASSED!\n");
   numPassed = numPassed + 1
-}
+}// three cases added
 
 
 
